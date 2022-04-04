@@ -3,11 +3,36 @@ import './style.css'
 import * as THREE from 'three'
 import { Canvas, useFrame, useThree } from 'react-three-fiber'
 import Kont from './Kont.js'
+import KuistiLogo from '../../svg/kuisti-logo.svg'
+import KuistiText from '../../svg/kuisti-text.svg'
+
+const Model = () => {
+  const [x, setX] = useState(0)
+  const [y, setY] = useState(0)
+
+  useFrame(({ mouse }) => {
+    setX(mouse.x * 0.25)
+    setY(mouse.y * 0.25)
+  })
+
+  return (
+    <Kont rotation={[Math.PI/2 - y, 0, -x]} scale={4} position={[0 + x * 0.3, y * 0.3, -3]}/>
+  )
+}
+
+const Logo = (): any => {
+  return (
+    <div className="logos">
+      <img src={KuistiLogo} />
+      <img src={KuistiText} />
+    </div>
+  )
+}
 
 const Three = (): any => {
   return (
     <div className="header-container">
-      <p className="header-title">Kuistilla since 2020</p>
+      <Logo />
       <Canvas
         camera={{ position: [0, 0, 0], fov: 70 }}
         onCreated={({ gl, camera }) => {
@@ -16,7 +41,7 @@ const Three = (): any => {
         <ambientLight intensity={1} />
         <directionalLight position={[2, 30, 15]} intensity={1.5} color={"#FFB400"}/>
         <Suspense fallback={null}>
-          <Kont rotation={[Math.PI/2, 0, 0]} scale={4} position={[0, 0, -3]}/>
+          <Model />
         </Suspense>
       </Canvas>
     </div>

@@ -23,3 +23,22 @@
   height: 100vh;
   background: #3C5670;
 }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.logos img {
+  height: 60px;
+}
+
+.logos img:nth-child(2) {
+  margin-left: 20px;
+  height: 18px;
+}
