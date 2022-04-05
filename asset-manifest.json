@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79f6b9f7.css",
+    "main.js": "/static/js/main.40efb1b6.js",
+    "static/js/787.2427c2a3.chunk.js": "/static/js/787.2427c2a3.chunk.js",
+    "static/media/kuisti-text.svg": "/static/media/kuisti-text.4fc2f934a3e174cfec92f2eec947f01c.svg",
+    "static/media/kuisti-logo.svg": "/static/media/kuisti-logo.8e777281ab4008ef324b9bfacbdd3166.svg",
+    "index.html": "/index.html",
+    "main.79f6b9f7.css.map": "/static/css/main.79f6b9f7.css.map",
+    "main.40efb1b6.js.map": "/static/js/main.40efb1b6.js.map",
+    "787.2427c2a3.chunk.js.map": "/static/js/787.2427c2a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79f6b9f7.css",
+    "static/js/main.40efb1b6.js"
+  ]
+}
