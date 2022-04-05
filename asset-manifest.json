@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31e71f87.css",
-    "main.js": "/static/js/main.7e2d9f6e.js",
+    "main.js": "/static/js/main.e0cbfb7b.js",
     "static/js/787.2427c2a3.chunk.js": "/static/js/787.2427c2a3.chunk.js",
     "static/media/kuisti-text.svg": "/static/media/kuisti-text.4fc2f934a3e174cfec92f2eec947f01c.svg",
     "static/media/kuisti-logo.svg": "/static/media/kuisti-logo.8e777281ab4008ef324b9bfacbdd3166.svg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/down.svg": "/static/media/down.ebdb040222a9ca742e48a4b8d5c255a3.svg",
     "main.31e71f87.css.map": "/static/css/main.31e71f87.css.map",
-    "main.7e2d9f6e.js.map": "/static/js/main.7e2d9f6e.js.map",
+    "main.e0cbfb7b.js.map": "/static/js/main.e0cbfb7b.js.map",
     "787.2427c2a3.chunk.js.map": "/static/js/787.2427c2a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31e71f87.css",
-    "static/js/main.7e2d9f6e.js"
+    "static/js/main.e0cbfb7b.js"
   ]
 }
