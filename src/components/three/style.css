@@ -79,7 +79,7 @@
 
 .down-button img {
   width: 50px;
-  animation: downBob 5s linear forwards infinite;
+  animation: downBob 1s linear forwards infinite;
 }
 
 @keyframes downBob {
