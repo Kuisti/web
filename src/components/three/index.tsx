@@ -1,7 +1,6 @@
-import React, { useRef, useState, Suspense, useEffect } from 'react'
+import { useState, Suspense } from 'react'
 import './style.css'
-import * as THREE from 'three'
-import { Canvas, useFrame, useThree } from 'react-three-fiber'
+import { Canvas, useFrame } from 'react-three-fiber'
 import Kont from './Kont.js'
 import KuistiLogo from '../../svg/kuisti-logo.svg'
 import KuistiText from '../../svg/kuisti-text.svg'
@@ -23,8 +22,8 @@ const Model = () => {
 const Logo = (): any => {
   return (
     <div className="logos">
-      <img src={KuistiLogo} />
-      <img src={KuistiText} />
+      <img src={KuistiLogo} alt="Kuisi Ry" />
+      <img src={KuistiText} alt="Ihan Kuistilla" />
     </div>
   )
 }
