@@ -55,7 +55,7 @@ export default function Model({ ...props }: JSX.IntrinsicElements['group']) {
   const [localScale, setLocalScale] = useState(1)
 
   const group = useRef<THREE.Group>()
-  const { nodes, materials } = useGLTF('./kont.glb') as GLTFResult
+  const { nodes, materials } = useGLTF('/kont.glb') as GLTFResult
 
   useFrame(() => {
     if (localScale < 2 && nodes && materials) {
@@ -87,4 +87,4 @@ export default function Model({ ...props }: JSX.IntrinsicElements['group']) {
   )
 }
 
-useGLTF.preload('./kont.glb')
+useGLTF.preload('/kont.glb')
