@@ -7,7 +7,6 @@ import { useRef, useState } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
 import { useFrame } from 'react-three-fiber'
-import { Vector3 } from 'three'
 
 type GLTFResult = GLTF & {
   nodes: {

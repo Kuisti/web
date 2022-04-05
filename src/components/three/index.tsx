@@ -40,7 +40,7 @@ const DownButton = (): any => {
     <button className="down-button" onClick={() => {
       document.getElementById("kontsa")?.scrollIntoView({ behavior: 'smooth' })
     }}>
-      <img src={Down} />
+      <img src={Down} alt="Get down" />
     </button>
   )
 }
