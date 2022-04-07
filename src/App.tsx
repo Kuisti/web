@@ -28,6 +28,9 @@ function App() {
         <p className="copyright">
           © Kuisti ry, Kuistitekniikan kerho 2022
         </p>
+        <p className="kontys-out">
+          Shout out to amadeus
+        </p>
       </div>
     </div>
   );
