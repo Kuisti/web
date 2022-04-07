@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e33b1ef.css",
-    "main.js": "/static/js/main.c1e4a8e8.js",
+    "main.css": "/static/css/main.5f6d607c.css",
+    "main.js": "/static/js/main.2d196209.js",
     "static/js/787.2427c2a3.chunk.js": "/static/js/787.2427c2a3.chunk.js",
     "static/media/kuisti-text.svg": "/static/media/kuisti-text.4fc2f934a3e174cfec92f2eec947f01c.svg",
     "static/media/kuisti-logo.svg": "/static/media/kuisti-logo.8e777281ab4008ef324b9bfacbdd3166.svg",
     "static/media/ig.svg": "/static/media/ig.1bed9346e70571983f2797836b98e60d.svg",
     "index.html": "/index.html",
     "static/media/down.svg": "/static/media/down.ebdb040222a9ca742e48a4b8d5c255a3.svg",
-    "main.0e33b1ef.css.map": "/static/css/main.0e33b1ef.css.map",
-    "main.c1e4a8e8.js.map": "/static/js/main.c1e4a8e8.js.map",
+    "main.5f6d607c.css.map": "/static/css/main.5f6d607c.css.map",
+    "main.2d196209.js.map": "/static/js/main.2d196209.js.map",
     "787.2427c2a3.chunk.js.map": "/static/js/787.2427c2a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e33b1ef.css",
-    "static/js/main.c1e4a8e8.js"
+    "static/css/main.5f6d607c.css",
+    "static/js/main.2d196209.js"
   ]
 }
